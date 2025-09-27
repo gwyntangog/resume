@@ -1226,6 +1226,26 @@ section .hero {
   height: auto !important;
 }
 
+.skills .profile-figure {
+  margin: 0;
+}
+
+.skills .profile-figure .profile-photo {
+  width: 88%;
+  max-width: 440px;
+  border-radius: 18px;
+  box-shadow: var(--shadow-soft);
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.skills .profile-figure .profile-caption {
+  margin-top: var(--space-2);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
 @media (max-width: 992px) {
   .skills .intro-wrap .headline {
     font-size: clamp(26px, 4.2vw, 36px);
