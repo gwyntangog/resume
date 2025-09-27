@@ -1323,7 +1323,7 @@ section .hero {
 
 .resume .experience-grid .experience-item {
   padding: 2.5rem 0;
-  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 92%);
+  border-bottom: 1px solid color-mix(in srgb, var(--accent-color), transparent 80%);
 }
 
 .resume .experience-grid .experience-item:last-child {
