@@ -806,6 +806,13 @@ section .hero {
   margin-bottom: var(--space-2);
 }
 
+.about .intro-content .strongList {
+  font-size: 20px;
+  line-height: 1.8;
+  color: color-mix(in srgb, var(--heading-color), transparent 10%);
+  margin-bottom: var(--space-2);
+}
+
 .about .intro-content p {
   line-height: 1.8;
   margin-bottom: var(--space-2);
